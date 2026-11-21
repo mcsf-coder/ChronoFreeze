@@ -1,0 +1,13 @@
+name: ChronoFreeze
+version: '1.0'
+main: org.chronofreeze.chronoFreeze.ChronoFreeze
+api-version: '26.3'
+commands:
+  chronofreeze:
+    description: Receive the Chrono Watch to stop time
+    usage: /chronofreeze
+    permission: chronofreeze.give
+permissions:
+  chronofreeze.give:
+    description: Allows obtaining the Chrono Watch via command
+    default: op
